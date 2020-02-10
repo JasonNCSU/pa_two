@@ -6,8 +6,11 @@ using namespace std;
 
 int main(int argc, char **argv) {
 
-    //Read in values from argv
+    //declare variables
+    char *trace_file = nullptr;
 
+    //Read in values from argv
+    trace_file = argv[1];
 
     //End of program
     return 0;
